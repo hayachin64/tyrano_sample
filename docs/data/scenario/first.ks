@@ -28,8 +28,6 @@
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
-
 太郎のお母さんは、優しいため、許してくれた。[l][r]
 ゲーム機は、明日返してもらうことになった。[r]
 
@@ -38,8 +36,6 @@
 [jump target=*start]
 
 *tag_retort
-
-[bg storage=run.jpg time=500]
 
 [cm]
 お母さんは、完全に怒ってしまった。[l][r]
