@@ -1,46 +1,62 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="お母さんと喧嘩する太郎"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「お母さんと喧嘩する太郎」[l][r]
 
-メロスは激怒した。[l][r]
+太郎は小学生。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+太郎は、いつもゲームばかりしていて、宿題をやらない。[l][r]
 
-(中略)[l][r]
+そのため、今日太郎が学校から帰ると、ゲーム機がお母さんに隠されていた。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+太郎は、お母さんに返せと言い、お母さんの足を蹴ってしまった。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+お母さんは、これで堪忍袋の緒が切れ、太郎に対し、今すぐ謝らないとゲーム機は返さないし、ご飯も出さないといった。[1][r]
+
+太郎は…[1][r]
+
+[link target=*tag_apologize]　→謝る　[endlink][r]
+[link target=*tag_retort] →謝らず言い返す [endlink][r]
+[link target=*tag_serch] →無視して、ゲーム機を探しに行く [endlink][r]
 [s]
 
-*tag_sleep
+*tag_apologize
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+太郎のお母さんは、優しいため、許してくれた。[l][r]
+ゲーム機は、明日返してもらうことになった。[r]
+
+【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_retort
+
+[bg storage=run.jpg time=500]
+
+[cm]
+お母さんは、完全に怒ってしまった。[l][r]
+口も聞いてもらえず、ゲームは捨てられてしまった。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_serch
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+一時間探したところ、、、[1][r]
+お母さんのベッドの下に隠されていた。[1][r]
+太郎は、ご飯も食べずゲームをした。[r]
+
+【 GOOD END 】 [1][cm]
 
 [jump target=*start]
